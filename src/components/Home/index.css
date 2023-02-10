@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 454px;
+  height: 420px;
+  border-radius: 12px;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 38px;
+  font-weight: bold;
+}
+.login-button {
+  width: 100px;
+  height: 35px;
+  border: 0px;
+  border-radius: 8px;
+}
